@@ -1,16 +1,86 @@
-# React + Vite
+# ⚡ Pokémon Explorer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive Pokémon website built using **React.js** that allows users to explore Pokémon, view their details, and search for their favourite Pokémon. The application fetches real-time Pokémon data from the PokéAPI and displays it in an interactive card-based interface.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+[View Live Website](https://pokemon-explorer-card.netlify.app/)
 
-## React Compiler
+## 📸 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Pokémon Listing:** Displays Pokémon in an attractive card-based layout.
+- **Search Functionality:** Search for Pokémon by name.
+- **API Integration:** Fetches Pokémon data using the PokéAPI.
+- **Detailed Information:** Displays Pokémon images, names, types, and other available details.
+- **Loading State:** Shows a loading indicator while fetching data.
+- **Error Handling:** Handles API errors and unsuccessful requests.
+- **Responsive Design:** Clean and user-friendly interface.
 
-## Expanding the ESLint configuration
+## 🛠️ Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React.js
+- JavaScript (ES6+)
+- HTML5
+- CSS3
+- Vite
+- PokéAPI
+- Fetch API
+- React Hooks (useState, useEffect)
+
+## 🌐 API Used
+
+This project uses the [PokéAPI](https://pokeapi.co/) to retrieve Pokémon information.
+
+API Endpoint:
+```text
+https://pokeapi.co/api/v2/pokemon/
+```
+
+## 💻 Getting Started
+
+Follow these steps to run the project locally.
+
+**1. Clone the repository**
+```bash
+git clone YOUR_GITHUB_REPOSITORY_URL
+```
+
+**2. Navigate to the project directory**
+```bash
+cd YOUR_PROJECT_FOLDER
+```
+
+**3. Install dependencies**
+```bash
+npm install
+```
+
+**4. Start the development server**
+```bash
+npm run dev
+```
+
+**5. Open the local URL** displayed in your terminal.
+
+## 📚 What I Learned
+
+While building this project, I practised:
+
+- Working with external APIs using Fetch API.
+- Managing component state with React Hooks.
+- Handling asynchronous operations using async/await.
+- Implementing loading and error states.
+- Rendering dynamic data using the map() method.
+- Using optional chaining to access nested API data.
+- Building reusable React components.
+- Implementing search functionality.
+
+## 👩‍💻 Author
+
+**Laxmi Sharma**
+
+- GitHub: https://github.com/LaxmiSharma05
+
+---
+
+⭐ If you like this project, feel free to give it a star!
